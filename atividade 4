@@ -1,0 +1,17 @@
+//atividade 4
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+int main(){
+    setlocale (LC_ALL,"");
+    double C, F;
+
+printf("Digite o valor de graus em Fahrenheit: ");
+scanf("%lf", &F);
+C = (F - 32) / 1.8;
+printf("Essa é sua temperatura em celsius: %.2lf\n ", C);
+system ("pause");
+    return 0;
+}
