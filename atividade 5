@@ -1,0 +1,25 @@
+//atividade 5 da prova
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <math.h>
+
+int main(){
+    setlocale (LC_ALL,"");
+
+    double a, b, c;
+
+printf("digite as unidades do primeiro cateto: ");
+scanf("%lf", &a);
+
+printf("digite as unidades do segundo cateto: ");
+scanf("%lf", &c);
+
+b = (pow(a, 2) + pow(c, 2));
+    double resultado;
+resultado = sqrt(b);
+
+printf("o valor da Hipotenusa é de: %.2lf\n", resultado);
+system ("pause");
+    return 0;
+}
