@@ -1,0 +1,19 @@
+//atividade 3 da prova
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main() {
+    setlocale (LC_ALL,"");
+
+    char a;
+
+printf("coloque o carácter: ");
+scanf("%c", &a);
+    int Dc = (int)a;
+
+printf("O código ASCII de '%c' em decimal fica %d.\n", a, Dc);
+printf("O código ASCII de '%c' em hexadecimal fica %X.\n", a, Dc);
+system ("pause");
+    return 0;
+}
